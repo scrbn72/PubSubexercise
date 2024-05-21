@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pubsubapi"
+version = "0.1.0"
+description = ""
+authors = ["scrbn72 <carlo.lombardi95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-pubsub = "^2.21.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
